@@ -24,7 +24,7 @@ export default {
   margin: 25px auto;
 }
 .welcomeApp{
-  color:gray;
+  color:white;
   text-align: center;
 }
 </style>

@@ -36,7 +36,7 @@ export default {
 <style scoped>
 #app{
     margin: 0px auto;
-    background:#d8d8d8;
+    background:rgb(51, 49, 49);
     overflow:auto;
     height:100vh;
 }
@@ -44,7 +44,7 @@ export default {
   padding:5px;
 }
 a{
-  color: rgb(151, 16, 16);
+  color: rgb(219, 87, 87);
 }
 .router-links{
   padding: 8px 0px 8px 0px;

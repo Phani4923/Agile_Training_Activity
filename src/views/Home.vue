@@ -68,7 +68,7 @@ label{
 .form{
   background: white;
   text-align: center;
-  padding: 30px 15px 5px 15px;
+  padding: 50px 15px 20px 15px;
   width: max-content;
   border: solid thin;
   border-radius: 15px;

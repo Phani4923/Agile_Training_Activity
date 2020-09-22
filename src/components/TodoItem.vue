@@ -3,7 +3,7 @@
         <div class="cancel" @click="deleteTodo"> 
             &times; 
         </div>
-        <p >{{ todo.Name }}</p>
+        <label>{{ todo.Name }}</label>
         <!-- <input @blur="blurIt" @keyup.enter="changeNameEnter(todo)" v-else type="text" v-model="updatedName"> -->
 </div>
 </template>
@@ -63,7 +63,7 @@ export default {
 <style scoped>
 .todo{
     
-    background-color: rgb(221, 214, 174);
+    background-color: rgb(207, 195, 125);
     margin: 10px 50px 10px 25px;
     /* width: fit-content; */
     height: 100%;
@@ -77,7 +77,7 @@ export default {
     /* cursor: pointer; */
     transition: 0.6s;
 }
-p{
+label{
     /* border: solid thin; */
     width: max-content;
     height: fit-content;
@@ -98,7 +98,7 @@ p{
     /* cursor: pointer; */
 }
 .is-completed{
-    background-color: rgb(177, 174, 174);
+    background-color: rgb(114, 103, 103);
     
 }
 </style>

@@ -74,17 +74,20 @@ export default {
     /* border: solid thin; */
     padding: 2px 2px 2px 2px;
 }
-button{
+button {
     /* width: max-content; */
     border-radius: 5px;
     padding: 5px 5px 5px 5px;
-    border: solid thin;
+    /* border: solid thin; */
     margin:7px 10px 10px 20px;
+    color: white;
+    border-color: black;
 }
 .status{
     background-color:rgb(177, 119, 140);
 }
 .rAllTodo{
+    color: black;
     font-size: 18px;
     background: rgb(252, 95, 95);
 }
